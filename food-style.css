@@ -13,6 +13,9 @@ body{
     width: 50%;
     margin-left: 5%;
 }
+.food-network h1{
+    margin-top: 15%;
+}
 .food-network img{
     width: 80%;
    
@@ -72,12 +75,14 @@ h3{
 #link-list{
     margin-top: 62px;
 }
+/*------------- End Header Section --------------*/
 
 /*--------------------Start main-section--------------- */
 .main-section{
     background-image: url("./background-img/7.png");
 
 }
+
 .orange{
     text-shadow: 0 -2px white;
     color: orangered;
@@ -95,17 +100,14 @@ p{
     margin: 50px 0;
 }
 #about-resturant{
-    margin-top: 10%;
-}
-#about-resturant a{
-    padding-bottom: 15px;
+    margin-top:5%;
 }
 /* ---------------------- End details-section -----------------*/
 
 /*----------------Start section-recipies-item -----------------*/
 .section-recipies-item{
     background-image: url("background-img/Frame\ 57.jpg");
-    margin: 70px 0;
+    margin: 70px 0
 }
 .my-recipie{
     padding-top: 10px;
@@ -138,7 +140,8 @@ p{
     border-image-slice: 1;
 }
 .food-recipes p{
-    padding:0 5px;
+    padding: 0 5%;
+    text-align: initial;
 }
 #high-protein{
     text-align: center;
