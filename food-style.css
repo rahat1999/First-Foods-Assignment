@@ -6,6 +6,9 @@ body{
 
 /* ------------------Reuseable-Component Start--------*/
 
+p{  
+    font-size: 20px;
+}
 .reuseable-container{
     display: flex;
 }
@@ -15,6 +18,9 @@ body{
 }
 .food-network h1{
     margin-top: 15%;
+}
+.food-network p{
+    margin-bottom: 15%;
 }
 .food-network img{
     width: 80%;
@@ -88,10 +94,7 @@ h3{
     color: orangered;
     text-transform: uppercase;
 }
-p{  
-    margin-bottom: 10%;
-    font-size: 20px;
-}
+
 /*--------------------End main-section--------------- */
 
 /* ---------------- Start details-section ----------------*/
@@ -99,8 +102,8 @@ p{
     background-image: url("./background-img/Frame\ 59.jpg");
     margin: 50px 0;
 }
-#about-resturant{
-    margin-top:5%;
+.details-section a{
+    margin-top: 3%;
 }
 /* ---------------------- End details-section -----------------*/
 
