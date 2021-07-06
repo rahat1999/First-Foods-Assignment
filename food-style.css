@@ -1,0 +1,181 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    background-color: #f75ca9c7;
+}
+
+/* ------------------Reuseable-Component Start--------*/
+
+.reuseable-container{
+    display: flex;
+}
+.food-network{
+    width: 50%;
+    margin-left: 5%;
+}
+.food-network img{
+    width: 80%;
+   
+}
+a{
+    font-weight: 700;
+    font-size:20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px #333;
+    background-image:linear-gradient(orange,tomato);
+    transition: 7s;
+    
+
+    
+}
+a:hover{
+    background-image:linear-gradient(tomato ,orange);
+    padding: 18px 28px;
+}
+
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 25px;
+}
+/* ---------------Reuseable-Component End----------------*/
+
+
+/*------------------ Start Heder-section----------------*/
+
+.header-section{
+    background-color: #333;
+}
+
+.box-one{
+    color: white;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.box-one h1{
+    color: orangered;
+    font-size: 50px;
+    text-shadow: 0 -4px white;
+}
+.box-one a{
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius: 25px;
+    margin-right: 5%;
+}
+
+#link-list{
+    margin-top: 62px;
+}
+
+/*--------------------Start main-section--------------- */
+.main-section{
+    background-image: url("./background-img/7.png");
+
+}
+.orange{
+    text-shadow: 0 -2px white;
+    color: orangered;
+    text-transform: uppercase;
+}
+p{  
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+/*--------------------End main-section--------------- */
+
+/* ---------------- Start details-section ----------------*/
+.details-section{
+    background-image: url("./background-img/Frame\ 59.jpg");
+    margin: 50px 0;
+}
+#about-resturant{
+    margin-top: 10%;
+}
+/* ---------------------- End details-section -----------------*/
+
+/*----------------Start section-recipies-item -----------------*/
+.section-recipies-item{
+    background-image: url("background-img/Frame\ 57.jpg");
+    margin: 70px 0;
+}
+.my-recipie{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.food-recipes{
+    width:35%;
+    margin:0 3%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 22px;
+    background-position: center;
+}
+.food-recipes img{
+    width:90%;
+    padding-top:15px;
+    border-radius: 18px;
+    
+}
+#La-Cocina{
+    text-align: center;
+    border-left:10px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+#Spicy-Seafood{
+    text-align: center;
+    border-left:10px solid;
+    border-image: linear-gradient(red,green);
+    border-image-slice: 1;
+}
+.food-recipes p{
+    padding:0 5px;
+}
+#high-protein{
+    text-align: center;
+    border-left:10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+/* ------------------End section-recipies-item -------------*/
+
+/* ---------------Start section-social-media---------------  */
+.section-social-media{
+    background-color: #fff;
+    box-shadow: 10px 10px 50px gray;
+    margin: 5% 3%;
+    border-radius: 22px;
+
+}
+.social-list{
+width: 30%;
+text-align: center;
+}
+/* ---------------End section-social-media---------------  */
+
+/* ------------------Start footer -------------------------*/
+footer{
+    color: gainsboro;
+    background-color: #333;
+    text-align: center;
+    font-weight: 400;
+}
+footer h3 {
+    color: gray;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+footer p{
+    padding-bottom: 80px;
+    margin-bottom:0 ;
+    font-size: 18px;
+    
+}
+/* ------------------End footer -------------------------*/
