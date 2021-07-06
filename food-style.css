@@ -97,6 +97,9 @@ p{
 #about-resturant{
     margin-top: 10%;
 }
+#about-resturant a{
+    padding-bottom: 15px;
+}
 /* ---------------------- End details-section -----------------*/
 
 /*----------------Start section-recipies-item -----------------*/
